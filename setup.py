@@ -2,11 +2,11 @@ from setuptools import setup, find_packages
 
 setup(
     name="oslili-cli", version="0.1",
-    description="OSLiLi-CLI",
+    description="oslili-cli",
     author="Oscar Valenzuela",
     author_email="oscar.valenzuela.b@gmail.com",
     packages=['src'],
-    entry_points={"console_scripts": ["src=src.cli:main"]},
+    entry_points={"console_scripts": ["oslili-cli=src.cli:main"]},
     install_requires=["oslili", ],
     url='https://opensourcelicensecompliance.com',
     classifiers=[
