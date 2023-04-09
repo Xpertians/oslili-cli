@@ -17,7 +17,8 @@ def main():
     print(f'License: {license_spdx_code} ({license_proba:.2f} probability)')
     year_range, statement = identifier.identify_copyright(text)
     if statement:
-        print(f'Copyright: {statement}')
+        if None not in statement:
+            print(f'Copyright: {statement}')
 
 
 if __name__ == '__main__':
