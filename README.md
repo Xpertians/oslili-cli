@@ -2,16 +2,22 @@
 
 Command Line Interface for using OSLiLi.
 
+This is an experimental project, please don't use it for production. For a more robust implementation, please check the project Askalono https://github.com/jpeddicord/askalono
 
 ## Usage
 
 ### On the command line
 
-Pending information
-
+You can use OSLiLi in your terminal as command line, please install the oslili-cli package:
+```
+$ pip3 install oslili-cli
+$ oslili-cli LICENSE
+License: MIT (0.89 probability)
+Copyright: ('2021', '(c)  Andrew Barrier')
+```
 ### As a library
 
-Pending information
+To learn how to use OSLiLi as library, please check the project https://github.com/oscarvalenzuelab/oslili
 
 ## Notice
 
