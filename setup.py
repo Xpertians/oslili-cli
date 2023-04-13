@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="oslili-cli", version="0.1",
+    name="oslili-cli", version="0.2",
     description="oslili-cli",
     author="Oscar Valenzuela",
     author_email="oscar.valenzuela.b@gmail.com",
