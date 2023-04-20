@@ -10,8 +10,9 @@ setup(
     install_requires=["oslili", ],
     url='https://opensourcelicensecompliance.com',
     classifiers=[
-        "Programming Language :: Python :: 3",
-        "OSI Approved :: Apache Software License",
-        "Operating System :: OS Independent",
-        ],
+        'Programming Language :: Python :: 3',
+        'Operating System :: POSIX :: Linux',
+        'Development Status :: 3 - Alpha',
+        'License :: OSI Approved :: Apache Software License'
+    ],
 )
