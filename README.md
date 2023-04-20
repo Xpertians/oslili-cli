@@ -23,7 +23,11 @@ To learn how to use OSLiLi as library, please check the project https://github.c
 
 ## Notice
 
-This tool does not provide legal advice and it is not a lawyer. It endeavors to match your input to a database of similar license texts, and tell you what it thinks is a close match. But, it can't tell you that the given license is authoritative over a project. Nor can it tell you what to do with a license once it's identified. You are not entitled to rely on the accuracy of the output of this tool, and should seek independent legal advice for any licensing questions that may arise from using this tool.
+This tool does not provide legal advice; I'm not a lawyer.
+
+The code is an experimental implementation to match your input to a database of similar license texts and tell you if it's a close match. Refrain from relying on the accuracy of the output of this tool.
+
+Remember: The tool can't tell you if a license works for your project or use case. Please should seek independent legal advice for any licensing questions.
 
 ## Contributing
 
