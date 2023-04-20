@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="oslili-cli", version="0.3",
+    name="oslili-cli", version="0.4",
     description="Open Source License Identification Library",
     author="Oscar Valenzuela",
     author_email="oscar.valenzuela.b@gmail.com",
@@ -12,7 +12,7 @@ setup(
     classifiers=[
         'Programming Language :: Python :: 3',
         'Operating System :: POSIX :: Linux',
-        'Development Status :: 3 - Alpha',
+        'Development Status :: 4 - Alpha',
         'License :: OSI Approved :: Apache Software License'
     ],
 )
