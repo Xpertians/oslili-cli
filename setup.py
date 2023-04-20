@@ -4,10 +4,10 @@ from setuptools import setup, find_packages
 
 
 HERE = pathlib.Path(__file__).parent
-VERSION = '0.6'
+VERSION = '0.7'
 PACKAGE_NAME = 'oslili-cli'
 AUTHOR = 'Oscar Valenzuela B.'
-AUTHOR_EMAIL = 'oscar.valenzuela.b@gmail.com'
+AUTHOR_EMAIL = 'alkamod@gmail.com'
 URL = 'https://github.com/oscarvalenzuelab/oslili-cli'
 LICENSE = 'Apache-2.0'
 DESCRIPTION = 'Open Source License Identification Library'
