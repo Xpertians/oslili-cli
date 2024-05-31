@@ -7,7 +7,6 @@ def main():
     parser = argparse.ArgumentParser(description=msg)
     parser.add_argument('file_path', help='Path to the file to analyze')
     args = parser.parse_args()
-    file_path = args.file_path
 
     with open(args.file_path, 'r') as f:
         text = f.read()
@@ -15,6 +14,8 @@ def main():
     identifier = LicenseAndCopyrightIdentifier()
     license_spdx_code, license_proba = identifier.identify_license(text)
     print(f'License: {license_spdx_code} ({license_proba:.2f} probability)')
+    copyrights = identifier.copyright_extraction(text)
+    print(f'Copyrights: {copyrights}')
     year_range, statement = identifier.identify_copyright(text)
     if year_range is None:
         print('year: None')
